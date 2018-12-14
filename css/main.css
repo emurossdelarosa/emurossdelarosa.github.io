@@ -85,5 +85,5 @@ header a:hover{
 
 #showcase{
 	min-height: 400px;
-	background-image: url('progaming.jpg') no-repeat;
+	background-image: url('./img/progaming.jpg') no-repeat;
 }
