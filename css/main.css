@@ -19,6 +19,15 @@ ul{
 	overflow: hidden;
 }
 
+button{
+	background-color: #e8491d;
+	border: none;
+	height: 38px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
 header{
 	background: #35424a;
 	color: #ffffff;
@@ -48,6 +57,11 @@ header #branding h1{
 	margin: 0;
 }
 
+#branding a{
+	text-transform: none;
+	font-size: 30px;
+}
+
 header nav{
 	float: right;
 	margin-top: 20px;
@@ -72,11 +86,11 @@ header a:hover{
 	width: 30%;
 	text-align: center;
 	padding: 10px;
+	height: 30%;
 }
 
 #boxes .box img{
-	width: 100px;
-
+	width: 80px;
 }
 
 #box3 {
@@ -84,6 +98,53 @@ header a:hover{
 }
 
 #showcase{
-	min-height: 400px;
-	background-image: url('./img/progaming.jpg') no-repeat;
+	min-height: 600px;
+	background:url('../img/progaming1.jpg') no-repeat 0 -150px;
+	background-size: 1300px;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+#showcase h1{
+	margin: 250px 0 0 0;
+	font-size: 55px;
+	line-height: 90%;
+	background-color: black;
+}
+
+#showcase p{
+	color: #e8491d;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	border-top: 3px solid #e8491d;
+	border-bottom: 3px solid #e8491d;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 20px;
+	width: 200px;
+}
+
+footer{
+	padding:2px;
+	text-align: center;
+	background: #e8491d;
+	color: #ffffff;
 }
