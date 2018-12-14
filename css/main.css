@@ -82,3 +82,8 @@ header a:hover{
 #box3 {
 	margin-top: 33px;
 }
+
+#showcase{
+	min-height: 400px;
+	background-image: url('progaming.jpg') no-repeat;
+}
