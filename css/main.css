@@ -100,11 +100,11 @@ header a:hover{
 #showcase{
 	min-height: 600px;
 	background:url('../img/progaming1.jpg') no-repeat 0 -150px;
-	background-size: 1300px;
+	background-size: 1500px;
 	text-align: center;
 	color: #ffffff;
 	opacity: 0.5;
-	width: 100%;
+	
 }
 
 #showcase h1{
